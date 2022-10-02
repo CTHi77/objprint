@@ -66,7 +66,7 @@ class ObjPrint:
         self.frame_analyzer = FrameAnalyzer()
 
     def __call__(self, *objs, file=None, format="string", **kwargs):
-        print("kkkk**********, hehe")
+        print("kkkk**********, hehe, wurt")
         cfg = self._configs.overwrite(**kwargs)
         if cfg.enable:
             call_frame = inspect.currentframe().f_back
